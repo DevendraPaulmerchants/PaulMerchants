@@ -1,0 +1,44 @@
+.goodwill-and-growth-parent-container {
+    padding: 2rem 4rem;
+    background: linear-gradient(to top, rgba(220,220,255,1), rgba(220,220,255,0.5), rgba(220,220,255,0.00));
+    /* background: #fff; */
+}
+.goodwill-and-growth-container {
+    font-family: 'poppins';
+    background: rgba(220, 220, 255, 255);
+    /* background: linear-gradient(to top, rgba(220,220,255,1), rgba(220,220,255,0.5), rgba(220,220,255,0.25)); */
+    /* background-image: url(../../../public/goodwillAndGrowth.svg); */
+    background: url(../../../../public/goodwillAndGrowth.svg);
+    background-position: right;
+    background-size: cover;
+    background-position-y: top;
+}
+
+.goodwill-and-growth-container h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.goodwill-content {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.goodwill-and-growth-container p {
+    font-weight: 600;
+}
+
+.goodwill-content h3 {
+    color: #5270DA;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.goodwill-content h4 {
+    font-weight: 600;
+    font-size: 34px;
+}
+.goodwill-content h5 {
+    color: #5270DA;
+    font-weight: 500;
+    font-size: 24px;
+}

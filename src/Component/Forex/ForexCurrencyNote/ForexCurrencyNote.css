@@ -1,0 +1,15 @@
+.forex-currency-note {
+    font-family: "poppins";
+    padding: 1rem 4rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.forex-currency-note-right {
+    height: 200px;
+    width: 50%;
+}
+.forex-currency-note-right img {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,99 @@
+.about-us-herosection {
+    background-image: url(../../../public/AboutUsHeroSection.svg);
+    height: 450px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 4rem;
+    padding-top: 150px;
+}
+.about-us-herosection h2 {
+    color: #FFDB19;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.about-us-herosection p {
+    color: #fff;
+    width: 40%;
+}
+.about-us-section {
+    flex-direction: row-reverse;
+    gap: 4rem;
+}
+.about-us-three-piller {
+   padding: 1rem 4rem;
+}
+.about-us-three-piller h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about-us-three-piller-parent {
+  display: flex;
+  gap: 4rem;
+  margin-top: 1rem;
+}
+.about-us-three-piller-child {
+    border-radius: 15px;
+    padding: 1.5rem 1rem;
+    min-width: calc(33.33% - 4rem);
+    flex: 1 1 calc(33.33% - 4rem);
+    box-shadow: 0 0 10px rgb(38, 38, 38, 0.5);
+}
+.about-us-three-piller-child h3 {
+    color: #0A2540;
+    font-size: 30px;
+    font-weight: 500;
+    /* margin-bottom: 10px; */
+}
+.about-us-three-piller-child img {
+    height: 100px;
+    width: 150px;
+}
+.about-us-step-by-step-parent {
+    padding: 1rem 4rem;
+}
+.about-us-step-by-step-parent h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.about-us-step-by-step-child {
+    background: #1D3071;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+.about-us-step-by-step-child-left {
+   padding: 4rem 2rem;
+   width: 60%;
+}
+.about-us-step-by-step-child-left h3 {
+    color: #FEE503;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.about-us-step-by-step-child-left p {
+    color: #fff;
+}
+.about-us-step-by-step-child-right img {
+    height: 100%;
+}
+.about-us-money-transfer {
+ padding-right: 2rem;
+ 
+}
+.about-us-payment {
+    padding-right: 2rem;
+}
+.about-us-future {
+    margin-top: -30px;
+}

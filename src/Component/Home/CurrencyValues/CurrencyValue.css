@@ -1,0 +1,45 @@
+.currency-value-container {
+    padding: 1rem 4rem;
+    display: flex;
+    gap: 1rem;
+    font-family: "rubik", sans-serif;
+    background: #EBF2FD;
+}
+.currency-value-price {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 80%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.currency-value-text {
+    width: 20%;
+}
+
+#price-value {
+  min-width:100px;
+}
+@keyframes infiniteScroll {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-100%);
+    }
+}
+#price-value {
+animation: infiniteScroll 5s linear infinite;
+}
+/* .paused-animation:hover {
+    animation-play-state: paused;
+} */
+
+.currency-value-text h2 {
+    color: #262626;
+    font-size: 18px;
+    font-weight: 500;
+}
+.currency-value-price p span {
+    color: rgb(38, 38, 38, 0.6);
+}

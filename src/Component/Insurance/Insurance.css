@@ -1,0 +1,113 @@
+* {
+    font-family: "poppins";
+}
+.insurance {
+    height: 350px;
+}
+.our-insurance-offerings-parent {
+    font-family: "poppins";
+    padding: 1rem 4rem;
+}
+
+.our-insurance-offerings-parent h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.provided-insurance {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 calc(50% - 1rem);
+    gap: 2rem;
+}
+
+.provided-insurance-card {
+    max-width: calc(50% - 1rem);
+    flex: 1 1 calc(50% - 1rem);
+    background: #00B589;
+    border-radius: 20px;
+    padding: 1.5rem 1rem;
+}
+
+.provided-insurance-card h3 {
+    color: #FEE503;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.provided-insurance-card p {
+    color: #fff;
+    width: 80%;
+}
+
+.insurance-btn-img-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: -35px;
+}
+
+.insurance-card-img {
+    height: 150px;
+}
+
+.insurance-card-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 20px;
+}
+
+.health {
+    background: #644EEC;
+}
+
+.travel {
+    background: #6D04C0;
+}
+
+.property {
+    background: #ED7A48;
+}
+/* ------------- Insurence why choose us ----------------------- */
+.insurence-why-choose-us {
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+}
+.insurence-why-choose-us-heading {
+    display: flex;
+    justify-content: space-between;
+}
+.insurence-why-choose-us-heading h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.insurence-why-choose-us-heading #cards-button {
+    padding: 10px 30px;
+}
+.trust-customization-support {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.insurance-trust h3 {
+    color: #1D3071;
+    margin-bottom: 1rem;
+}
+.insurance-trust p {
+    color: #262626;
+}
+#border-line {
+    background: #878787;
+    border: 1px solid #878787;
+    transform: rotate(30deg);
+}
+.insurence-text h3 {
+    color: #FFDB19;
+    width: 50%;
+}

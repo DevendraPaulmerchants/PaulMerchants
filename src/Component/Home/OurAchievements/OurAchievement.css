@@ -1,0 +1,53 @@
+.our-achievement-container-text {
+    padding: 1rem 4rem;
+    font-family: "poppins";
+}
+.our-achievement-slider-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    gap: 2px;
+}
+.award-container {
+    padding:6rem 2rem;
+    min-width: calc(33.33% - 1px);
+    background: linear-gradient(180deg, #0D2475 0%, #0300AD 100%);
+    text-align: center;
+    animation: slideRightToLeft 20s  linear infinite;
+}
+.award-container img {
+    height: 220px;
+    width: 200px;
+    object-fit: fill;
+}
+@keyframes slideRightToLeft {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-300%);
+    }
+}
+.our-achievement-slider-left-right {
+    display: flex;
+}
+.our-achievement-left-container,.our-achievement-right-container {
+    min-width: 20px;
+}
+.our-achievement-upper-container {
+    width: 100%;
+    height: 60px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    position: absolute;
+    background:#fff;
+    z-index: 99;
+}
+.our-achievement-bottom-container {
+    width: 100%;
+    height: 60px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background:#fff;
+    rotate: 180deg;
+    margin-top: -58px;
+    margin-bottom: 2rem;
+}

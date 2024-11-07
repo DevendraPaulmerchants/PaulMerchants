@@ -1,0 +1,43 @@
+.management-team-hero-section {
+    background: url(../../../public/ManagementTeamHerosectionImg.svg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    padding-left: 4rem;
+    padding-top: 150px;
+}
+.management-team-hero-section h2 {
+    color: #FFDB19;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.management-team-hero-section p {
+    color: #fff;
+    width: 50%;
+}
+.management-team-leader-parent {
+    padding: 2rem 4rem;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.management-team-leader {
+    max-width: calc(33.33% - 4rem);
+    flex: 1 1 calc(33.33% - 4rem);
+}
+.management-team-leader h3 {
+    color: #1D3071;
+    font-weight: 500;
+}
+.management-team-leader p {
+    color: #737373;
+}
+.management-team-leader img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}

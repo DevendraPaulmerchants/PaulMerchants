@@ -1,0 +1,84 @@
+.travel-hero-btn {
+    margin-top: 2rem;
+    display: flex;
+    gap: 10px;
+}
+.travel-hero-btn  button .span-img{
+    height: 20px;
+    width: 20px;
+}
+.span-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.travel-hero-btn button {
+    background: #FFDB19;
+    outline: none;
+    border: none;
+    color: #000637;
+    cursor: pointer;
+    /* align-items: center; */
+    border-radius: 25px;
+    padding: 6px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.tour-and-travel-heading {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+.tour-and-travel-heading-left h2{
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.tour-and-travel-heading-left {
+    width: 80%;
+}
+.tour-and-travel-heading-left p {
+    color: #262626;
+}
+.tour-and-travel-heading-right img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ---------------------------------------------------- */
+.travel-flight {
+    width: 60%;
+    margin-top: 80px;
+    overflow: hidden;
+    border-bottom-right-radius: 10px;
+}
+.travel-hotel {
+    margin-top: 40px;
+    overflow: hidden;
+    border-bottom-right-radius: 10px;
+}
+.travel-bus {
+    width: 40%;
+    margin-top: 75px;
+}
+.travel-cruise {
+    width: 60%;
+    margin-top: 80px;
+    overflow: hidden;
+    border-bottom-right-radius: 10px;
+}
+.travel-holiday {
+    margin-top: 20px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+.travel-forex {
+    margin-top: 35px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}

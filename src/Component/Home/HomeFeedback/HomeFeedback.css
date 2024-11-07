@@ -1,0 +1,78 @@
+.home-feedback-container {
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    font-family: "poppins";
+}
+/* .home-feedback-container h2 {
+    color: #1D2F71;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+} */
+.home-feedback-slider-parent {
+    padding: 2rem 0;
+    position: relative;
+    overflow: hidden;
+}
+.home-feedback-slider:hover {
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    to {
+        transform: translateX(-100%);
+    }
+}
+.home-feedback-slider {
+    display: flex;
+    gap: 2rem;
+    animation: scroll 20s linear infinite;
+}
+.home-feedback-user-container {
+   background: #fff;
+   padding: 1.5rem;
+   border-radius: 20px;
+   min-width:60%;
+}
+.image-and-name {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.image-and-name h3 {
+    color: #000;
+}
+.home-feedback-message p {
+    font-weight: 500;
+    font-size: 16px;
+}
+.home-feedback-slider-parent {
+    display: flex;
+    overflow: hidden;
+}
+.home-feedback-slider-parent-with-txt {
+    background: #1D2F71;
+    border-radius: 10px;
+}
+.feedback-txt {
+    padding-bottom:2rem;
+}
+.feedback-txt h4 {
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+}
+.slider-before {
+    min-width:150px;
+    z-index: 9;
+    background: linear-gradient(to right, rgb(29, 47, 113) 30%,rgb(29, 47, 113,0.5),
+    rgb(29, 47, 113,0.25),rgb(29, 47, 113,0.15),rgb(29, 47, 113,0));
+}
+.slider-after {
+    min-width:150px;
+    z-index: 9;
+    background: linear-gradient(to left, rgb(29, 47, 113) 30%,rgb(29, 47, 113,0.5),
+    rgb(29, 47, 113,0.25),rgb(29, 47, 113,0.15),rgb(29, 47, 113,0));
+}

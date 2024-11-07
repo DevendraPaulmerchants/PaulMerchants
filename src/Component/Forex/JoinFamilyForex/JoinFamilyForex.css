@@ -1,0 +1,42 @@
+.join-family-forex {
+    margin: 1rem 4rem 2rem;
+    background: #B8D3FF;
+    border-radius: 12px;
+    font-family: "poppins";
+    display: flex;
+    gap: 2rem;
+}
+.our-customer-and-transaction {
+    display: flex;
+    gap: 2rem;
+    background: #EBF2FD;
+    border-radius: 10px;
+}
+.our-happy-customer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.5rem;
+}
+.our-happy-customer-text h2 {
+    color: #FFB800;
+    font-size: 30px;
+}
+.our-happy-customer-text h3 {
+    color: #262626;
+}
+.join-forex-family {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.join-forex-family h2 {
+    color: #8850FE;
+    font-size: 30px;
+}
+.join-forex-family img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.message-from-md-hero-section {
+    background: url(../../../public/MessageFromMd.svg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    padding-left: 4rem;
+    padding-top: 150px;
+}
+.message-from-md-hero-section h2 {
+    color: #FFDB19;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.message-from-md-hero-section p {
+    color: #fff;
+    width: 40%;
+}
+.message-from-md-hero-below {
+    padding: 2rem 4rem;
+}
+.message-from-md-hero-below h2 {
+    color: #1D3071;
+   font-weight: 600;
+   font-size: 40px;
+   margin-bottom: 1.5rem;
+}
+.message-from-md-hero-below p {
+    color: #262626;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,84 @@
+.cards {
+    max-height: 400px;
+    padding: 1rem;
+}
+/* ----------------Cards Services --------------- */
+.card-services-parent {
+    font-family: "poppins";
+    padding: 1rem 4rem;
+}
+.card-services-parent h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.physical-card-container {
+    background: #59B720;
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    border-radius: 20px;
+}
+.physical-card-container h3 {
+    color: #FEE503;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.physical-card-container p {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+#cards-button {
+    background: #FFDB19;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    height: fit-content;
+    cursor: pointer;
+    color: #1D3071;
+}
+.physical-card-left {
+    padding-bottom: 1.5rem;
+}
+@media screen and (min-width:1450px) and (max-width:2000px) {
+    .physical-card-right {
+        min-width: 15%;
+        max-width: 15%;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1450px) {
+    .physical-card-right {
+        min-width: 20%;
+        max-width: 20%;
+    }
+}
+.physical-card-right img {
+    height: 100%;
+    width: 100%;
+    border-bottom-right-radius: 20px;
+    object-fit: cover;
+}
+.virtual-card {
+    background: #5C5C5C;
+}
+.gift-card {
+    background: #87329C;
+}
+.Ready-to-experience-effortless-payment {
+    display: flex;
+    justify-content: space-between;
+    background: #1D3071;
+    padding: 2rem 4rem;
+    font-family: "poppins";
+    align-items: center;
+}
+.Ready-to-experience-effortless-payment h3 {
+    font-size: 30px;
+    width: 30%;
+}

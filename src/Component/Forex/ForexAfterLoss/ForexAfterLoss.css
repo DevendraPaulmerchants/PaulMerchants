@@ -1,0 +1,44 @@
+.forex-brand-encashment-refund {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    font-family: "poppins";
+    padding: 2rem 4rem;
+}
+.forex-brand {
+    background: #1D2F71;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: calc(33.33% - 2rem);
+    flex: 1 1 calc(33.33% - 2rem);
+}
+.forex-brand h4 {
+    color: #FFDB19;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.forex-brand p {
+    color: #fff;
+}
+.afterloss-beforeloss-parent {
+    font-family: "poppins";
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 4rem;
+    width: 100%;
+}
+.forex-after-loss {
+    max-width: 50%;
+    min-width: 50%;
+}
+.forex-after-loss h4 {
+    color: #1D2F71;
+    font-size: 20px;
+    font-weight: 600;
+}
+.forex-after-loss ul {
+    padding-left: 2rem;
+}
+    

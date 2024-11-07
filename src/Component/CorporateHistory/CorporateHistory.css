@@ -1,0 +1,53 @@
+.corporate-history-herosection {
+    background-image: url(../../../public/corporatehistoryHerosection.svg);
+    height: 450px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 4rem;
+    padding-top: 150px;
+}
+.corporate-history-herosection h2 {
+    color: #FFDB19;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.corporate-history-herosection p {
+    color: #fff;
+    width: 40%;
+}
+.corporate-below-hero-section {
+    padding: 2rem 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.corporate-below-hero-section-left {
+   width: 70%;
+}
+.corporate-below-hero-section-left h4 {
+    color: #0A35A3;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.corporate-below-hero-section-left h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.corporate-below-hero-section-left p {
+    color: #262626;
+}
+.corporate-below-hero-section-right img {
+    height: 100%;
+    width: 100%;
+}
+.about-us-step-by-step-corporate {
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin-bottom: -30px;
+}

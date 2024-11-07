@@ -1,0 +1,92 @@
+.why-paulmerchants-container {
+    display: flex;
+    padding: 2rem 4rem;
+    font-family: "popinnes", sans-serif;
+    gap: 2rem;
+    width: 100%;
+}
+
+.why-paulmerchants-text ul {
+    padding-left: 1rem;
+}
+
+.why-paulmerchants-text ul li {
+    margin: 15px 0;
+    font-weight: 600;
+}
+.why-paulmerchants-text {
+    width: 50%;
+}
+
+.why-paulmerchants-image {
+    height: 500px;
+}
+
+.why-paulmerchants-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.why-paulmerchants-image {
+    position: absolute;
+}
+
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg);
+    }
+    90% { 
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+
+.why-paulmerchants-image img {
+    animation: rotate360 5s linear infinite;
+}
+
+.why-paulmerchants-logo-over-image {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    position: relative;
+    top: 9rem;
+    left: 9rem;
+    border-radius: 50%;
+}
+
+.timely {
+    background: #1D2F71;
+}
+
+.transparent {
+    background: #6ABE4C;
+}
+
+.customer {
+    background: #CF69B9;
+}
+
+.progressive {
+    background: #F1547A;
+}
+
+@keyframes whyPaulMerchantsScaleOutIn {
+    0% {
+        transform: scale(0.10);
+    }
+
+    100% {
+        transform: scale(0.90);
+    }
+}
+.why-paulmerchants-logo-over-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: whyPaulMerchantsScaleOutIn 5s infinite;
+}

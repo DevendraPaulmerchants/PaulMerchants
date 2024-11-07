@@ -1,0 +1,45 @@
+.forex-belive-together {
+    padding: 1rem 4rem;
+    font-family:"poppins";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.forex-belive-left-section {
+    width: 40%;
+}
+.forex-belive-right-section {
+    width: 60%;
+}
+.forex-belive-left-section h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.forex-belive-left-section p {
+    color: #262626;
+}
+.forex-icici-bank {
+    background: #EBF2FD;
+}
+.forex-belive-right-section {
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.forex-icici-bank {
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    max-width: calc(50% - 2rem);
+}
+/* .forex-icici-bank {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+} */

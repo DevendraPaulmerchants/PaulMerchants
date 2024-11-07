@@ -1,0 +1,113 @@
+.money-transfer-hero-section {
+    padding: 1rem 4rem 0;
+    font-family: "poppins";
+    background: #1D3071;
+    display: flex;
+    justify-content: space-between;
+    max-height: 400px;
+}
+
+.money-transfer-left-section {
+    padding-top: 2rem;
+    width: 50%;
+}
+
+.money-transfer-left-section h2 {
+    color: #FFDB19;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.money-transfer-left-section p {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.money-transfer-right-section {
+    width: 50%;
+}
+
+.money-transfer-right-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+/* --------------------- Services ------------- */
+.money-transfer-services {
+    padding: 1rem 4rem;
+    font-family: "poppins";
+}
+
+.money-transfer-services h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.money-transfer-remittance-parent {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.money-transfer-remittance-and-text {
+    max-width: calc(50% - 1rem);
+    flex: 1 1 calc(50% - 1rem);
+    /* max-width: calc(50% - 2rem); */
+}
+.money-transfer-remittance-and-text p {
+    color: #262626;
+    margin-top: 10px;
+}
+.money-transfer-remittance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1D3071;
+    border-radius: 5px;
+    padding: 1rem 0 1rem 2rem;
+}
+#domestic-remittance {
+    padding: 1rem 1rem 0 2rem;
+}
+
+#text-btn h3 {
+    color: #3FFFDC;
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+#text-btn button {
+    background: #FFDB19;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #1D3071;
+    font-weight: 600;
+}
+
+#remittance-img {
+    height: 130px;
+}
+#remittance-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* ---------------------------- Title and Description --------------------------------------- */
+.money-transfer-title-description {
+    padding: 2rem 4rem;
+    font-family: "poppins";
+}
+.money-transfer-title-description h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.money-transfer-title-description p {
+    color: #262626;
+}

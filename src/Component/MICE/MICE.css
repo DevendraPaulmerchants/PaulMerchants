@@ -1,0 +1,84 @@
+.mice-child-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mice-child-container h3 {
+    margin: 0;
+}
+
+.mice-child-right {
+    padding-top: 10px;
+}
+
+/* ----------------------- Request Form ------------------------- */
+.request-form-container-parent {
+    padding: 1rem 4rem;
+    /* margin: 2rem 0; */
+    margin-bottom: 4rem;
+}
+
+.request-form-container-parent h2 {
+    color: #1D3071;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.request-form-container {
+    display: flex;
+}
+
+.request-form-left {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: -85px;
+    margin-bottom: -47px;
+}
+
+.request-form-right {
+    margin-left: -78px;
+    z-index: -1;
+    margin-top: -45px;
+}
+
+.mice-request-from {
+    width: 100%;
+    background: #1D3071;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+}
+.mice-request-form-input {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.mice-request-form-input input {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 24px;
+}
+.mice-request-form-input input::placeholder {
+    color: rgb(223, 223, 223);
+}
+.mice-request-form-btn {
+    text-align: center;
+    margin-top: 1rem;
+}
+.mice-request-form-btn button {
+    width: 60%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 18px;
+    background: #FFB800;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.chairman-message-contaner {
+    background: url(../../../../public/chairmanbckg.svg);
+    margin:0 0 2rem 0;
+    padding: 0 4rem;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    align-items: center;
+    font-family: "poppines", sans-serif;
+}
+.chairman-image {
+    height: 500px;
+    width: 100%;
+}
+.chairman-image img {
+   height: 500px;
+   width: 100%;
+   object-fit: fill;
+   object-position: top;
+}
+/* .chairman-message {
+    width: 160%;
+} */
+.chairman-message h2,h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.chairman-message h3 {
+    margin-top: 2rem;
+    margin-bottom: 5px;
+}
+.chairman-message p {
+    color: #bbb7b7;
+}

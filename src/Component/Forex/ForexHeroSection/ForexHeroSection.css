@@ -1,0 +1,156 @@
+.forex-hero-section {
+    padding: 2rem 4rem;
+    font-family: "poppins";
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    background: #1D3071;
+    height: 400px;
+}
+.forex-modify-right-section {
+   height: 350px;
+}
+.forex-modify-right-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.forex-hero-left-right-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.forex-hero-left-section {
+  width: 60%;
+  padding-top: 6rem;
+}
+.forex-hero-right-section {
+   width: 40%;
+   background: #fff;
+   border-radius: 10px;
+}
+/* .forex-hero-right-section-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+.forex-hero-right-section-top p {
+    cursor: pointer;
+}
+#forex-active {
+    color: #1D3071;
+    font-weight: 600;
+}
+#forex-unselect {
+    color: #8B8B8B;
+    font-weight: 600;
+}
+.forex-active {
+    height: 5px;
+    border-radius: 20px;
+    background: #1D3071;
+}
+.forex-hero-section-form form {
+    padding: 0rem 2rem 1.5rem;
+}
+.forex-send-receive-input-field {
+    display: flex;
+    gap: 2rem;
+}
+.forex-send-and-select-field input {
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.forex-send-and-select-field input::placeholder {
+    color: #A4A4A4;
+    font-size: 12px;
+}
+.forex-send-and-select-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #747474;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.forex-send-input-field h3 {
+    color: #262626;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.forex-image-currency-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+#forex-currency-icon {
+  color: #262626;
+}
+#forex-currency-down-arrow {
+    margin-top: 5px;
+}
+.forex-image-currency-icon-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+
+}
+.select-forex-currency {
+    padding:5px 1rem;
+    box-shadow: 0 0 5px 5px rgb(38, 38, 38,0.5);
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    max-height: 250px;
+    overflow: auto;
+    z-index: 9;
+}
+.forex-exchange-purpose-and-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.forex-exchange-purpose-parent {
+    width: 100%;
+}
+.forex-exchange-purpose-parent p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #262626;
+    margin-bottom: 5px;
+}
+.forex-exchange-purpose {
+    border:1px solid #747474 ;
+    border-radius: 20px;
+    padding: 5px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.forex-exchange-purpose select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.forex-exchange-btn {
+    width: 100%;
+}
+.forex-exchange-btn button {
+    width: 100%;
+    color: #1D3071;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: #FFDB19;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+} */

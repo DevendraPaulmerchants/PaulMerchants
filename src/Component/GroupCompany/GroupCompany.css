@@ -1,0 +1,79 @@
+.group-company-hero-section {
+    background: url(../../../public/GroupCompanyHeroSection.svg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    padding-left: 4rem;
+    padding-top: 150px;
+}
+
+.group-company-hero-section h2 {
+    color: #FFDB19;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.group-company-hero-section p {
+    color: #fff;
+    width: 45%;
+}
+.group-company-parent-section {
+    padding: 3rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-between;
+}
+.group-company-child {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: calc(33.33% - 4rem);
+    flex: 1 1 calc(33.33% - 4rem);
+    border-radius: 20px;
+}
+.paulmerchants {
+    background: url(../../../public/GCPaulMerchants.svg);
+}
+.paul-merchants-finance {
+   background: url(../../../public/GCPaulFinance.svg);
+}
+.paul-excursions {
+   background: url(../../../public/GcPaulExcursions.svg);
+}
+.relators {
+    background: url(../../../public/GcPaulRelators.svg);
+}
+.overseas {
+    background: url(../../../public/GcPaulOverSeas.svg);
+}
+.pml-holidays {
+    background: url(../../../public/GcPMLHolidays.svg);
+}
+.paul-instacared {
+    background: url(../../../public/GcPaulInstaCared.svg);
+}
+.paul-fincare {
+    background: url(../../../public/GcPaulFincare.svg);
+}
+.paul-jewal {
+    background: url(../../../public/GcPaulGawels.svg);
+}
+.group-company-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    cursor: pointer;
+}
+.group-company-child h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.group-company-child p {
+    border: 1.5px solid #fff;
+}

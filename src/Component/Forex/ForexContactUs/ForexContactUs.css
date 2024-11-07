@@ -1,0 +1,62 @@
+.forex-contact-us-container {
+    font-family: "poppins";
+    padding: 1rem 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.forex-contact-us-right-container {
+    display: flex;
+}
+.forex-contact-us-form {
+    width: 500px;
+    background: #1D3071;
+    padding:3rem 2rem 3rem 2rem;
+    border-radius: 5px;
+}
+#forex-contact-us-form-left {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.forex-contact-us-form form input,textarea {
+     display: block;
+     padding: 10px 15px;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+     margin-bottom: 20px;
+     width: 100%;
+     font-size: 24px;
+}
+.forex-contact-us-form form textarea {
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+}
+.forex-contact-us-form form button {
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 18px;
+    background: #FFB800;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.forex-contact-us-form form input::placeholder, textarea::placeholder{
+    color: rgb(223, 223, 223);
+}
+#forex-contact-us-form-right {
+    margin-left: -60px;
+    z-index: -1;
+}
+#forex-contact-us-form-left {
+    margin-right: -60px;
+    z-index: -1;
+}

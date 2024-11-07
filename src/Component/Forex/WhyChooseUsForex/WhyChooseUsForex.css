@@ -1,0 +1,28 @@
+.forex-choose-container {
+    padding: 2rem 4rem;
+    font-family: "poppins";
+}
+.forex-services-parent {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+.forex-services {
+   max-width: calc(33.33% - 2rem);
+   flex: 1 1 calc(33.33% - 2rem);
+}
+.forex-services img {
+   height: 100px;
+   width: 100px;
+   object-fit: cover;
+}
+.forex-services h3 {
+    color: #262626;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.forex-services p {
+    color: #262626;
+}

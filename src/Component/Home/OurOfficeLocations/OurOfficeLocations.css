@@ -1,0 +1,75 @@
+.our-office-location-container {
+    margin-top: 8rem;
+    /* background-image: url(../../../public/OurLocationBackgroundImage.png); */
+    background: url(../../../../public/OurLocationBackgroundImage.png);
+    font-family: "poppins";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 1rem 4rem 0;
+}
+.our-office-location-container h2 {
+    color: #0A2540;
+    font-size: 50px;
+    font-weight: 600;
+}
+.our-office-location-container p {
+    font-weight: 500;
+}
+.location-image-city-parent {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.location-image {
+    width: 50%;
+    height: 500px;
+}
+.location-city {
+    width: 50%;
+    text-align: center;
+}
+.location-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.location-city h3 {
+    color: #0A2540;
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+.location-city button {
+    margin-top: 2rem;
+    background: #FFDB19;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+    color: #263238;
+}
+.location-bootom-image {
+    height: 200px;
+    width: 100%;
+    margin-top: -45px;
+}
+.location-bootom-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.location-image img {
+   animation: opacityUpAndDown 4s linear infinite;
+}
+@keyframes opacityUpAndDown {
+    0% {
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 1;
+    }
+}

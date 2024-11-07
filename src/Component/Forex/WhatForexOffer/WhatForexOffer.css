@@ -1,0 +1,68 @@
+.forex-offer-section {
+    padding: 2rem 4rem;
+}
+.forex-offer-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.forex-offer-service {
+    border-radius: 5px;
+    padding: 1.5rem;
+    max-width: calc(50% - 1rem);
+    flex: 1 1 calc(50% - 1rem);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+@keyframes feedToDeepExchange {
+    0% {
+        background: #C6F0BF;
+    }
+    100% {
+        background: #82DF73;
+    }
+}
+.exchange {
+    background: #C6F0BF;
+}
+.exchange:hover {
+    background: #82DF73;
+}
+
+.gicAccount {
+    background: #CED2F6;
+}
+.gicAccount:hover {
+    background: #939BE1;
+}
+
+.draft {
+    background: #EDD6F5;
+}
+.draft:hover {
+    background: #C790DA;
+}
+.remittance {
+    background: #F3E2C8;
+}
+.remittance:hover {
+    background: #E2AE5F;
+}
+
+.forex-offer-container h3 {
+    color: #444444;
+    margin-bottom: 1rem;
+    font-size: 28px;
+}
+
+#forex-angle-arrow img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+#forex-angle-arrow {
+    display: flex;
+    justify-content: end;
+}
