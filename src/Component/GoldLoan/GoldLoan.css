@@ -6,12 +6,6 @@
     font-family: "poppins";
     padding: 1rem 4rem;
 }
-.gold-why-choose-us h2 {
-    color: #1D3071;
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
 .gold-why-choose-us p {
     display: flex;
     align-items: center;

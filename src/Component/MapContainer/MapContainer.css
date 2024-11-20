@@ -1,0 +1,119 @@
+.branch-location-hero-section {
+    background: url(../../../public/GroupCompanyHeroSection.svg);
+    height: 400px;
+    padding: 4rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.map-container-parent {
+    padding: 2rem 4rem;
+}
+.branch-locator-parent {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.map-container-left {
+   width: 30%;
+}
+.map-container-right {
+  width: 70%;
+  border: 1px solid #848484;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.select-your-state {
+   padding: 1rem;
+   border: 2px solid #848484;
+   border-radius: 20px;
+   margin-bottom: 2rem;
+}
+.select-your-state select {
+    border: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+}
+.branch-locator-btn  button {
+   border: none;
+   outline: none;
+   background: #FFDB19;
+   padding: 1rem;
+   width: 100%;
+   border-radius: 10px;
+   cursor: pointer;
+   color: #262F4C;
+   font-weight: 600;
+   font-size: 18px;
+   margin-top: 2rem;
+}
+.branch-total-showing-result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.branch-showing {
+    background: #0A2540;
+    padding:1rem 2rem;
+    border-radius: 10px;
+    flex: 1 1 calc(50% - 2rem);
+    max-width: calc(50% - 2rem);
+}
+.branch-showing-result {
+    padding: 1rem 4rem 4rem;
+}
+.branch-showing-result p {
+    color: #8A8A8A;
+    margin-bottom: 1rem;
+}
+
+.branch-name-and-direction {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+.branch-name h4 {
+    color: #fff;
+    font-weight: 500;
+}
+.branch-direction h4 {
+    color: #FFDB19;
+    font-weight: 500;
+    border: 1px solid #FFDB19;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/* ------------------------ show-location-on-map-parent----------- */
+.show-location-on-map-parent {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.show-location-on-map {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    width: 50%;
+    height: 500px;
+    padding:1rem 2rem;
+    border-radius: 20px;
+    box-shadow: -5px -5px 15px rgb(38, 38, 38, 0.5);
+}
+.location-top-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+#map-close {
+    cursor: pointer;
+}
+.location-map-container {
+    height: 400px;
+}

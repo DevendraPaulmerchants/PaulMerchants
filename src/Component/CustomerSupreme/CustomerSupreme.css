@@ -1,0 +1,36 @@
+.customer-supreme-herosection {
+    background: #1D3071;
+    padding: 1rem 6rem;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer-supreme-herosection-right {
+   height: 350px;
+}
+.customer-supreme-herosection-right img {
+    height: 100%;
+    width: 100%;
+}
+.customer-supreme-message-container {
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.customer-supreme-message-img {
+    width: 40%;
+}
+.customer-supreme-message-txt {
+    width: 60%;
+}
+.customer-supreme-message-txt p {
+    color: #262626;
+    margin-bottom: 10px;
+}
+.customer-supreme-message-img img {
+    height: 100%;
+    width: 100%;
+}

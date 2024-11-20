@@ -1,0 +1,102 @@
+.career-hero-section {
+    background: linear-gradient(to right, #001A45, #59739c);
+}
+.career-hero-section-left {
+    width: 50%;
+}
+.career-current-openning-position {
+    padding: 2rem 4rem;
+}
+.career-current-openings-parent {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.career-current-opening {
+    flex: 1 1 calc(33.33% - 2rem);
+    max-width: calc(33.33% - 2rem);
+    background: #1D3071;
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.career-current-opening p {
+    color: #fff;
+}
+.career-arrow-symbol {
+    margin-top: 10px;
+}
+.career-job-form-parent {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#office-phone-number {
+    color: #0A2540;
+    font-weight: 500;
+}
+#office-open-time {
+    color: rgb(0, 0, 0, .48);
+}
+.career-aaply-for-job-form {
+    background: #1D3071;
+    border-radius: 20px;
+    border: 1px solid #FFDB19;
+    width: 50%;
+}
+.career-aaply-for-job-form h4 {
+    color: #FFDB19;
+    font-weight: 500;
+    font-size: 30px;
+    border-bottom: 1px solid #FFDB19;
+    text-align: center;
+    padding: 10px 0;
+}
+.career-aaply-for-job-form .career-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.career-aaply-for-job-form .career-form input, textarea {
+    border: none;
+    outline: none;
+    background: #fff;
+    padding: 10px 15px ;
+    border-radius: 10px;
+    min-width: calc(50% - 2rem);
+    font-size: 16px;
+}
+.career-aaply-for-job-form .career-form textarea {
+    max-height: 150px;
+    min-height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.career-aaply-for-job-form .career-form textarea::placeholder {
+    color: #757575;
+}
+#candidate_name {
+    width: 45%;
+}
+#candidate_mobile_no {
+    width: 45%;
+}
+#candidate_email {
+    width: 100%;
+}
+.career-aaply-for-job-form .career-form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #FFDB19;
+    color: #1D3071;
+}

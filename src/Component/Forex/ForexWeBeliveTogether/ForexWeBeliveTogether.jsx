@@ -5,8 +5,8 @@ function ForexWeBeliveTogether() {
     return (
         <div className='forex-belive-together'>
             <div className="forex-belive-left-section">
-                <h2>We believe in togetherness!</h2>
-                <p>Our technology, our people, and our expertise are all primed to foster these
+                <h2 className='header_title_h2'>We believe in togetherness!</h2>
+                <p className='header_description_p'>Our technology, our people, and our expertise are all primed to foster these
                     connections, and we recognize that each of them is indispensable to our achievements.
                     None of this would be possible without their contributions!</p>
             </div>

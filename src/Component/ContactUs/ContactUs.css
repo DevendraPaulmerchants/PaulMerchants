@@ -1,0 +1,44 @@
+.conatct-us-location-and-form {
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.contact-us-location-parent {
+    margin-bottom: 2rem;
+}
+
+.contact-us-map-and-address {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-us-map {
+    background: #1d3071;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.contact-us-map h5 {
+    color: #fff;
+    height: 300px;
+    width: 400px;
+}
+.contact-us-corporate-office-location {
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contact-us-form {
+    width: 100%;
+}
+/* .gm-control-active {
+    background: #1d3071 !important;
+} */
+.contact-us-page-map {
+    gap: 16px;
+} 

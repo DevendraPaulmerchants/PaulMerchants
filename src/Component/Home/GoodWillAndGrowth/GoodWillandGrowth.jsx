@@ -1,13 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./GoodWillandGrowth.css";
 
 function GoodWillandGrowth() {
+    const [initialState,setInitialState]=useState(0);
+    const [animation,setAnimation]=useState(false)
+    useEffect(()=>{
+        const interval=setInterval(()=>{
+            setInitialState(initialState + 1)
+        },3000)
+        return clearInterval(interval)
+    },[initialState])
+    
+    const callAnimation=()=>{
+        if(animation%2 === 0){
+            setAnimation(true)
+        }
+        else {
+            setAnimation(false)
+        }
+    }
+    useEffect(()=>{
+        callAnimation()
+    },[initialState])
+
     return (
         <div className='goodwill-and-growth-parent-container'>
             <div className='goodwill-and-growth-container'>
                 <h2>Goodwill & Growth</h2>
                 <p>We have earned both!</p>
-                <div className='goodwill-content'>
+                <div className='goodwill-content' id={animation ? "animation-true":""}>
                     <div className="year-of-establish">
                         <h3>31+</h3>
                         <h4>Years</h4>

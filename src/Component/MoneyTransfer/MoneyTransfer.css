@@ -87,6 +87,7 @@
     padding: 8px 15px;
     color: #1D3071;
     font-weight: 600;
+    cursor: pointer;
 }
 
 #remittance-img {

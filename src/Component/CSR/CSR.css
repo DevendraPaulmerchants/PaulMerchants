@@ -1,0 +1,41 @@
+.csr-hero-section {
+    padding: 4rem;
+    background: url(../../../public/CSRHeroSection.svg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.csr-hero-section-below {
+    padding: 2rem 4rem;
+}
+
+.social-responsibility-parent {
+    padding: 2rem 4rem;
+}
+.our-social-responsibility {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.our-social-dawai {
+    background: #1D3071;
+    padding: 2rem;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.our-social-dawai-img {
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+.our-social-dawai-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ 

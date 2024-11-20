@@ -1,0 +1,29 @@
+.gallery-hero-section {
+    background: url(../../../public/GalleryHeroSection.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery-recognition-parent {
+    padding: 2rem 4rem;
+}
+.gallery-images-parent {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.gallery-images-parent .gallery-image {
+    position: relative;
+}
+.gallery-image {
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex: 1 1 calc(33.33% - 1rem);
+    max-width: calc(33.33% - 1rem);
+}
+.gallery-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

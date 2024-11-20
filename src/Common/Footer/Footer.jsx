@@ -3,7 +3,6 @@ import './Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-    console.log("footer component")
     return <>
         <div className='footer-container'>
             <div className='footer-parent-of-all-services'>
@@ -14,10 +13,10 @@ function Footer() {
                         <Link to="/message-from-our-md"><li>Welcome message by MD</li></Link>
                         <Link to="/group-companies"><li>Group Companies</li></Link>
                         <Link to="/management-team"><li>Management Team</li></Link>
-                        <Link><li>Quality Policy</li></Link>
-                        <Link><li>Customer is Supreme</li></Link>
+                        <Link to="/quality-policy"><li>Quality Policy</li></Link>
+                        <Link to="/customer-supreme"><li>Customer is Supreme</li></Link>
                         <Link to="/corporate-history"><li>Corporate History</li></Link>
-                        <Link><li>Core Team</li></Link>
+                        <Link to="/core-team"><li>Core Team</li></Link>
                     </ul>
                 </div>
                 <div className='footer-services-and-list'>
@@ -32,29 +31,29 @@ function Footer() {
                         <Link to="/cards"><li>Cards</li></Link>
                         <Link to="/gold-loan"><li>Gold Loan</li></Link>
                         <Link to="/insurance"><li>Insurance</li></Link>
-                        <Link><li>Business Payment Solutions</li></Link>
+                        <Link to="/business-payment-solution"><li>Business Payment Solutions</li></Link>
                     </ul>
                 </div>
                 <div className='footer-services-and-list'>
                     <h2>USEFUL LINKS</h2>
                     <ul>
-                        <Link><li>Investors</li></Link>
-                        <Link><li>Career</li></Link>
-                        <Link><li>Blog</li></Link>
-                        <Link><li>Branch Locations</li></Link>
-                        <Link><li>Gallery</li></Link>
-                        <Link><li>CSR</li></Link>
-                        <Link><li>Contact Us</li></Link>
+                        <Link to="investors"><li>Investors</li></Link>
+                        <Link to="/career"><li>Career</li></Link>
+                        <Link to="/blogs"><li>Blog</li></Link>
+                        <Link to="branch-locations"><li>Branch Locations</li></Link>
+                        <Link to="/gallery"><li>Gallery</li></Link>
+                        <Link to="/csr"><li>CSR</li></Link>
+                        <Link to="/contact-us"><li>Contact Us</li></Link>
                     </ul>
                 </div>
                 <div className='footer-services-and-list'>
                     <h2>Follow Us</h2>
                     <ul className='footer-follow-icon-container'>
-                        <Link><li><img src='facebook.svg' alt='facebook' id='footer-follow-img' /></li></Link>
-                        <Link><li><img src='twitter.svg' alt='twitter' id='footer-follow-img' /></li></Link>
-                        <Link><li><img src='linkedln.svg' alt='linkedln' id='footer-follow-img' /></li></Link>
-                        <Link><li><img src='youtube.svg' alt='youtube' id='footer-follow-img' /></li></Link>
-                        <Link><li><img src='instagram.svg' alt='instagram' id='footer-follow-img' /></li></Link>
+                        <Link to="https://www.facebook.com/paulmerchantsofficial/" target='blank'><li><img src='facebook.svg' alt='facebook' id='footer-follow-img' /></li></Link>
+                        <Link to="https://x.com/PaulMerchants1" target='blank'><li><img src='twitter.svg' alt='twitter' id='footer-follow-img' /></li></Link>
+                        <Link to="https://www.linkedin.com/company/paul-merchants-ltd?_l=en_US" target='blank'><li><img src='linkedln.svg' alt='linkedln' id='footer-follow-img' /></li></Link>
+                        <Link to="https://www.youtube.com/channel/UC02zoN5vPoEahmB-8ImEMhA?view_as=subscriber" target='blank'><li><img src='youtube.svg' alt='youtube' id='footer-follow-img' /></li></Link>
+                        <Link to="https://www.instagram.com/paulmerchants/" target='blank'><li><img src='instagram.svg' alt='instagram' id='footer-follow-img' /></li></Link>
                     </ul>
                 </div>
             </div>
